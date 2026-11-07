@@ -25,5 +25,5 @@ async def on_member_join(member):
         await channel.send(f'Seja muito bem-vindo(a) ao Sem Emprego, {member.mention}! 🎉')
 
 # Pega o Token secreto que vamos configurar abaixo
-bot.run("MTU2ODYzODMzMjA4NTM0MjM3MQ.GvQgcK.cIC4jtowBFxTU8Rkrr9Op297_SMO5wgA4Ra8eg")
+bot.run(os.environ['DISCORD_TOKEN'])
 
